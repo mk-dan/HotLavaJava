@@ -1,4 +1,4 @@
-package genesis.hotlavajava;
+package genesis.random;
 
 class Hello {
     public static void main(String[] arguments){
