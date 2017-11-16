@@ -30,8 +30,10 @@ class FilmReview{
         
         String thoughts = "I can't wait to watch Justice league in the Cinema";
         String reaction = "I will now not be watching justice league in Cinema";
+        
         System.out.println("What are your thoughts about the film based on the reviews you just read, will"
                 + "\nyou watch Justice League in the cinema?\n");
+        
         System.out.println("Answer: " + thoughts.equals(reaction));
     }
 }
