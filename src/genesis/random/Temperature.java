@@ -14,7 +14,7 @@ class Temperature{
         double getTempInKelvin = (celsius)+273.15;
         
         System.out.println("\nThe current Temperature is " + celsius + " °C " 
-                + "\nor\n " + getTempInFarenheit + " °F "
-                + "\nor\n " + getTempInKelvin + " K \n");
+                + "\nor \n " + getTempInFarenheit + " °F "
+                + "\nor \n " + getTempInKelvin + " K \n");
     }    
 }
