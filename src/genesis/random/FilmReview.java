@@ -9,7 +9,7 @@ class FilmReview{
         String rating = "12A";
         String date = "Friday November 2017";
         
-        System.out.println(film);
+        System.out.println(film.toUpperCase());
         System.out.println("Rated: " + rating);
         System.out.println("Running time: " + lenght + " minutes");
         System.out.println("UK release date: " + date);
@@ -34,7 +34,6 @@ class FilmReview{
         System.out.println("What are your thoughts about the film based on the reviews you just read, will"
                 + "\nyou watch Justice League in the cinema?\n");
         
-        System.out.println("Answer: " + thoughts.equalsIgnoreCase(reaction));
+        System.out.println("Answer: " + thoughts.equalsIgnoreCase(reaction) + "\n");
     }
 }
-
