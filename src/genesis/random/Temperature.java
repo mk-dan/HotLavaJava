@@ -11,10 +11,6 @@ class Temperature{
         // get current time and date
         LocalDateTime now = LocalDateTime.now();
         int hour = now.get(ChronoField.HOUR_OF_DAY);
-        //int minute = now.get(ChronoField.MINUTE_OF_HOUR);
-        //int month = now.get(ChronoField.MONTH_OF_YEAR);
-        //int day = now.get(ChronoField.DAY_OF_MONTH);
-        //int year = now.get(ChronoField.YEAR);
         
         // display greeting
          if (hour < 12) {
