@@ -19,6 +19,10 @@ class Temperature{
         
         if (celsius <= 10) {
             System.out.println("Wrap Up, its about to be chilly!!\n");
+        } else if (celsius >= 30) {
+            System.out.println("Don't forget to SPF\n");
+        } else {
+            System.out.println("Normal Temperature\n");
         }
         
     }    
