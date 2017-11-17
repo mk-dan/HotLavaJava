@@ -16,5 +16,10 @@ class Temperature{
         System.out.println("\nThe current Temperature is " + celsius + " °C " 
                 + "\nor \n " + getTempInFarenheit + " °F "
                 + "\nor \n " + getTempInKelvin + " K \n");
+        
+        if (celsius <= 10) {
+            System.out.println("Wrap Up, its about to be chilly!!\n");
+        }
+        
     }    
 }

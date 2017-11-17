@@ -35,5 +35,6 @@ class FilmReview{
                 + "\nyou watch Justice League in the cinema?\n");
         
         System.out.println("Answer: " + thoughts.equalsIgnoreCase(reaction) + "\n");
+        
     }
 }
