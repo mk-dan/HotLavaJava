@@ -6,9 +6,11 @@ class SqaureRoot {
     
     public static void main(String[] arguments) {
         
-        Scanner keyBoard = new Scanner(System.in);
         System.out.println("Please enter a number ");
+        
+        Scanner keyBoard = new Scanner(System.in);
         double number = keyBoard.nextDouble();
+        
                 System.out.println("\nThe square root of "
                 + number
                 + "\n is "
