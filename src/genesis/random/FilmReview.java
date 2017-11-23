@@ -2,19 +2,43 @@ package genesis.random;
 
 class FilmReview{
     
-    public static void main(String[] arguments){
+    public static void main(String[] arguments) {
         
         // set variable to hold film details
         String film = "Justice League";
         int lenght = 120;
         String rating = "12A";
         String date = "Friday November 2017";
-        
+        String[] actor = new String [11];
+        	
+        actor[0] = "Ben Affleck";
+        actor[1] = "Henry Cavill";
+        actor[2] = "Amy Adams";
+        actor[3] = "Gal Gadot";
+        actor[4] = "Ezra Miller";
+        actor[5] = "Jason Momoa";
+        actor[6] = "Ray Fisher";
+        actor[7] = "Jeremy Irons";
+        actor[8] = "Diane Lane";
+        actor[9] = "Connie Nielsen";
+        actor[10] = "J. K. Simmons";
+                
         // display film details
         System.out.println(film.toUpperCase());
         System.out.println("Rated: " + rating);
         System.out.println("Running time: " + lenght + " minutes");
         System.out.println("UK release date: " + date);
+        System.out.println("Starring: " + actor[0]
+                                       + "\n\t  " + actor[1]
+                                       + "\n\t  " + actor[2]
+                                       + "\n\t  " + actor[3]
+                                       + "\n\t  " + actor[4]
+                                       + "\n\t  " + actor[5]
+                                       + "\n\t  " + actor[6]
+                                       + "\n\t  " + actor[7]
+                                       + "\n\t  " + actor[8]
+                                       + "\n\t  " + actor[9]
+                                       + "\n\t  " + actor[10]);
         
         // display the first film review
         System.out.println("\n\'Justice League\' feels like a sheepish feature-length retraction of"

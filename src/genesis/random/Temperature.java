@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 class Temperature{
     
-    public static void main(String[] arguments){
+    public static void main(String[] arguments) {
         
         // get current time and date
         LocalDateTime now = LocalDateTime.now();
