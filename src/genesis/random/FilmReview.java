@@ -23,6 +23,10 @@ class FilmReview{
         actor[8] = "Diane Lane";
         actor[9] = "Connie Nielsen";
         actor[10] = "J. K. Simmons";
+        
+        // convert string to integer 
+        int actorCount = (int) actor.length;
+        
                 
         // display film details
         System.out.println(film.toUpperCase());
@@ -40,6 +44,7 @@ class FilmReview{
                                        + "\n\t  " + actor[8]
                                        + "\n\t  " + actor[9]
                                        + "\n\t  " + actor[10]);
+        System.out.println("Main Actors: " + actorCount);
         
         // display the first film review
         System.out.println("\n\'Justice League\' feels like a sheepish feature-length retraction of"
