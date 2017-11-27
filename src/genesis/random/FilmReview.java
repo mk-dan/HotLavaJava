@@ -24,7 +24,7 @@ class FilmReview{
         actor[9] = "Connie Nielsen";
         actor[10] = "J. K. Simmons";
         
-        // convert string to integer 
+        // convert string to int variable  
         int actorCount = (int) actor.length;
         
                 
