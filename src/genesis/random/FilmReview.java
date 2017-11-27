@@ -26,7 +26,6 @@ class FilmReview{
         
         // convert string to int variable  
         int actorCount = (int) actor.length;
-        
                 
         // display film details
         System.out.println(film.toUpperCase());
