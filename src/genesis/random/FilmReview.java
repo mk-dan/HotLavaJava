@@ -9,8 +9,9 @@ class FilmReview{
         int lenght = 120;
         String rating = "12A";
         String date = "Friday November 2017";
-        String[] actor = new String [11];
-        	
+        
+        // set array elements to hold actor names
+        String[] actor = new String [11];	
         actor[0] = "Ben Affleck";
         actor[1] = "Henry Cavill";
         actor[2] = "Amy Adams";
