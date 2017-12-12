@@ -1,6 +1,6 @@
 package genesis.random;
 
-class Hello {
+class HelloWorld {
     
     public static void main(String[] arguments) {
         
@@ -9,7 +9,6 @@ class Hello {
         
         // Store the length of the string object greeting in a int variable called num
         int num = greeting.length();
-        
         System.out.println(greeting + "\nGreeting length including spaces and new line: " + num);
     }
 }
